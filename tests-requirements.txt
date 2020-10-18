@@ -1,0 +1,6 @@
+coverage
+pylama
+tox
+pytest
+pytest-subtests
+mock

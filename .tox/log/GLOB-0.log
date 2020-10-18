@@ -1,0 +1,53 @@
+action: GLOB, msg: packaging
+cwd: /Users/a.morvan/Documents/code_dw/pex_tox_experiments
+cmd: /usr/local/opt/python@3.6/bin/python3.6 setup.py sdist --formats=zip --dist-dir .tox/dist
+running sdist
+running egg_info
+writing my_project.egg-info/PKG-INFO
+writing dependency_links to my_project.egg-info/dependency_links.txt
+writing entry points to my_project.egg-info/entry_points.txt
+writing requirements to my_project.egg-info/requires.txt
+writing top-level names to my_project.egg-info/top_level.txt
+reading manifest file 'my_project.egg-info/SOURCES.txt'
+writing manifest file 'my_project.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) must be supplied
+
+creating my_project-0.1
+creating my_project-0.1/my_project
+creating my_project-0.1/my_project.egg-info
+copying files to my_project-0.1...
+copying requirements.txt -> my_project-0.1
+copying setup.py -> my_project-0.1
+copying tests-requirements.txt -> my_project-0.1
+copying my_project/__init__.py -> my_project-0.1/my_project
+copying my_project/__main__.py -> my_project-0.1/my_project
+copying my_project.egg-info/PKG-INFO -> my_project-0.1/my_project.egg-info
+copying my_project.egg-info/SOURCES.txt -> my_project-0.1/my_project.egg-info
+copying my_project.egg-info/dependency_links.txt -> my_project-0.1/my_project.egg-info
+copying my_project.egg-info/entry_points.txt -> my_project-0.1/my_project.egg-info
+copying my_project.egg-info/requires.txt -> my_project-0.1/my_project.egg-info
+copying my_project.egg-info/top_level.txt -> my_project-0.1/my_project.egg-info
+Writing my_project-0.1/setup.cfg
+creating '.tox/dist/my_project-0.1.zip' and adding 'my_project-0.1' to it
+adding 'my_project-0.1'
+adding 'my_project-0.1/my_project'
+adding 'my_project-0.1/my_project.egg-info'
+adding 'my_project-0.1/PKG-INFO'
+adding 'my_project-0.1/requirements.txt'
+adding 'my_project-0.1/tests-requirements.txt'
+adding 'my_project-0.1/setup.py'
+adding 'my_project-0.1/setup.cfg'
+adding 'my_project-0.1/my_project/__init__.py'
+adding 'my_project-0.1/my_project/__main__.py'
+adding 'my_project-0.1/my_project.egg-info/PKG-INFO'
+adding 'my_project-0.1/my_project.egg-info/SOURCES.txt'
+adding 'my_project-0.1/my_project.egg-info/entry_points.txt'
+adding 'my_project-0.1/my_project.egg-info/requires.txt'
+adding 'my_project-0.1/my_project.egg-info/top_level.txt'
+adding 'my_project-0.1/my_project.egg-info/dependency_links.txt'
+removing 'my_project-0.1' (and everything under it)

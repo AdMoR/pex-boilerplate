@@ -1,0 +1,5 @@
+*.DS_Store
+my_project.egg-info/*
+my_project.egg-info/
+dist
+dist/*
