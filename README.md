@@ -20,14 +20,14 @@ At the end of the build, we get a \*.pex file that we can later use as `myprojec
 
 ### A boilerplate code
 
-Available at [](), it gives the basic blocks to build a pex with your python package.
+It gives the basic blocks to build a pex with your python package.
 
 In short, run the following commands to see how your project can be built as an executable
 ```
 tox
 ./dist/app.pex -m my_project
 ```
-![pex_build](/assets/images/pex_build.png)
+![pex_build](https://raw.githubusercontent.com/AdMoR/admor.github.io/master/assets/images/pex_build.png)
 
 What this does is :
 - Build the package requirements in a virtual env
